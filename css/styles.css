@@ -1,0 +1,54 @@
+body {
+    background: #f6f6f6;
+}
+
+.resume header::before {
+    background: url(../images/bg-home-office-studio.jpg) center;
+    background-image: url(../images/bg-home-office-studio.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+
+h1 {
+    font-size: 7rem;
+    line-height: 0.85;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+h1, h2, h3 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+{
+@media screen and (min-width: 860px) }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: #222;
+    color: #d3d4d6;
+    unicode-bidi: isolate;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
