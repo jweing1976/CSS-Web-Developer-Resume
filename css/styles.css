@@ -33,6 +33,7 @@ body {
 }
 h1, h2, h3 {
     font-family: 'Caveat', cursive;
+    color: #2D336D;
     font-weight: 400;
     margin: 0;
 }
